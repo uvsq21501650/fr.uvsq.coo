@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>fr.uvsq.coo.GROUPE3</groupId>
-  <artifactId>EXO3-app</artifactId>
+  <artifactId>ex3_5-app</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>EXO3-app</name>
+  <name>ex3_5-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
