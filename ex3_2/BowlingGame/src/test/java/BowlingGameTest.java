@@ -45,6 +45,12 @@ public class BowlingGameTest extends TestCase {
         g=new Game();
     }
     
+      private void rollMany(int n, int pins)
+      {
+           for(int i=0; i<n;i++)
+             g.roll(pins);
+      }
+    
     /**
      *
      */
@@ -64,11 +70,7 @@ public class BowlingGameTest extends TestCase {
           rollMany(20, 0);
          assertEquals(0, g.score());
       }
-      private void rollMany(int n, int pins)
-      {
-           for(int i=0; i<n;i++)
-             g.roll(pins);
-      }
+
       
       @Test
       public void testAllOnes () throws Exception
