@@ -72,7 +72,7 @@ public class BowlingGameTest extends TestCase {
       }
 
       
-      /*@Test
+      @Test
       public void testAllOnes () throws Exception
       {
           rollMany(20, 1);
@@ -85,5 +85,5 @@ public class BowlingGameTest extends TestCase {
           g.roll(3);
           rollMany(17, 0);
           assertEquals(16, g.score());
-      }*/
+      }
 }
