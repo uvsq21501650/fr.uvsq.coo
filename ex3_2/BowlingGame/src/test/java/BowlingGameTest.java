@@ -80,10 +80,14 @@ public class BowlingGameTest extends TestCase {
       }
       public void testOneSpare()
       {
-          g.roll(5);
-          g.roll(5); // spare
+          rollSapre();
           g.roll(3);
           rollMany(17, 0);
           assertEquals(16, g.score());
+      }
+      private void rollSapre()
+      {
+          g.roll(5);
+          g.roll(5); // spare
       }
 }
