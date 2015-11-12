@@ -78,6 +78,7 @@ public class BowlingGameTest extends TestCase {
           rollMany(20, 1);
           assertEquals(20, g.score());
       }
+      @Test
       public void testOneSpare()
       {
           rollSapre();
