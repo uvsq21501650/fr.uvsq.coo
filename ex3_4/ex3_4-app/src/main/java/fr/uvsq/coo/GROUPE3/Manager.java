@@ -9,7 +9,7 @@ package fr.uvsq.coo.GROUPE3;
  *
  * @author mccstan
  */
-public class Manager implements Salaried
+public class Manager extends Employee implements Salaried
 {
     private double baseSalaire=1500;
     private double baseAnciennete=20;
@@ -20,7 +20,7 @@ public class Manager implements Salaried
     @Override
     public double salaire() 
     {
-         return baseSalaire + (nbAnnee * baseAnciennete) + (baseSubord * nbSubord);
+         return super.salaire() + (baseSubord * nbSubord);
     }
     
 }

@@ -13,4 +13,5 @@ public interface Salaried
 {
     public abstract double salaire();
     
+    
 }

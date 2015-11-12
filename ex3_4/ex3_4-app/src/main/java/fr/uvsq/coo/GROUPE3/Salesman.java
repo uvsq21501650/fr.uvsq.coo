@@ -9,7 +9,7 @@ package fr.uvsq.coo.GROUPE3;
  *
  * @author mccstan
  */
-public class Salesman implements Salaried
+public class Salesman extends Employee implements Salaried
 {
     private double baseSalaire=1500;
     private double baseAnciennete=20;
@@ -18,7 +18,7 @@ public class Salesman implements Salaried
     @Override
     public double salaire() 
     {
-        return baseSalaire + (nbAnnee * baseAnciennete) + commission;
+        return super.salaire()+ commission;
     }
     
 }
