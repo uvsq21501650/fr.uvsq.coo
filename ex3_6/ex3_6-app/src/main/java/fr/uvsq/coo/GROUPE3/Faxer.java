@@ -1,0 +1,4 @@
+interface Faxer
+{
+  void fax() ;
+}

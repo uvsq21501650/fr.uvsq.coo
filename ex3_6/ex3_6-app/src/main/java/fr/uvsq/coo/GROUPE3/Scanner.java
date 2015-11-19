@@ -1,0 +1,4 @@
+interface Scanner
+{
+  void scan () ;
+}

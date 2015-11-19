@@ -1,0 +1,4 @@
+interface Copier
+{
+  void copy() ;
+}
