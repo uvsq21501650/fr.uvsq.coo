@@ -1,6 +1,6 @@
 package fr.uvsq.coo.GROUPE3
 
-class RobotStatique extends Robot()
+class RobotStatique extends Robot
 {
   @override
   public void tourner()

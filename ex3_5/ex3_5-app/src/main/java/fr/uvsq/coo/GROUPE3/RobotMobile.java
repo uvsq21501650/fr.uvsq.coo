@@ -5,7 +5,7 @@ package fr.uvsq.coo.GROUPE3
   *
   *
   */
-class RobotMobile extends Robot()
+class RobotMobile extends Robot
 {
   @override
   public void avance()
