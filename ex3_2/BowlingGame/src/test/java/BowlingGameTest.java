@@ -63,7 +63,6 @@ public class BowlingGameTest extends TestCase {
     // The methods must be annotated with annotation @Test. For example:
     //
     // @Test
-    // public void hello() {}
       @Test
       public void testGutterGame() throws Exception
       {
