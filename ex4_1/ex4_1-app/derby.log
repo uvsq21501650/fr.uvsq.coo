@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Dec 18 02:47:11 CET 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0151-b2c4-f403-000005481f40 
+on database directory /home/mccstan/fr.uvsq.coo/ex4_1/ex4_1-app/cooDB with class loader sun.misc.Launcher$AppClassLoader@6bc7c054 
+Loaded from file:/home/mccstan/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_05-b13
+user.dir=/home/mccstan/fr.uvsq.coo/ex4_1/ex4_1-app
+os.name=Linux
+os.arch=amd64
+os.version=3.19.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
